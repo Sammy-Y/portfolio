@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif TC", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+}
+
+nav {
+  background-color: #38383c;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 1rem;
+  list-style: none;
+}
+
+nav ul li {
+  display: flex;
+}
+
+nav ul li a {
+  padding: 0.5rem 0.75rem;
+  color: rgb(192, 192, 192);
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-size: 1.25rem;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.header-Text {
+  font-size: 1.5rem;
+}
+.header-Title {
+  font-size: 3rem;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.left,
+section.right {
+  padding: 1.5rem;
+}
+
+section.iframe iframe {
+  border-radius: 2rem;
+}
+
+section.container {
+  display: flex;
+}
+
+section.right h4 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.active {
+  color: white;
+}
+
+section.left {
+  flex: 2 1 550px;
+}
+
+section.iframe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  flex: 1 1 350px;
+}
+
+section.right {
+  padding: 2rem;
+}
+
+section.container h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+section p.special {
+  font-size: 1.5rem;
+  color: red;
+  text-align: center;
+}
+
+section.left div {
+  display: flex;
+}
+
+div.center p {
+  padding: 1rem;
+}
+
+section.container ul li a {
+  text-decoration: none;
+}
+
+section.container ul li a:hover {
+  color: #38383c;
+}
+
+section.left .ecopage {
+  padding-top: 2rem;
+}
+
+.ecopage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.myPic {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#curve_chart {
+  width: 100%;
+  height: 80%;
+}
+
+@media screen and (max-width: 650px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #curve_chart {
+    width: 100%;
+    height: 40%;
+  }
+}
